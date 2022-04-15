@@ -137,4 +137,21 @@
   }
   .data_height{
       border-right: 1px solid #ccc;
+      
+  }
+  .btn_btn{
+    margin-top: 1em;
+  }
+  .btn {
+    text-decoration: none;
+    background-color: #222;
+    color: #fff;
+    padding: .7em 1.2em;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.4s;
+  }
+  .btn:hover {
+    background-color: #e33d33;
+    color: #fff;
   }

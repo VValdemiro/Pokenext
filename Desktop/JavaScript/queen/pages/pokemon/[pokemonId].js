@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import Image from 'next/image'
 import styles from '../../styles/Pokemon.module.css'
 
@@ -65,6 +66,11 @@ export default function Pokemon({pokemon}){
                     <h4>Peso:</h4>
                     <p>{pokemon.weight / 10} Kg</p>
                 </div>
+            </div>
+            <div className={styles.btn_btn}>
+            <Link href={`/`}>
+                <a className={styles.btn}>Voltar</a>
+            </Link>
             </div>
         </div>
     )
